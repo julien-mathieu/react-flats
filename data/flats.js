@@ -1,6 +1,3 @@
-
-
-
 const flats = [
   {
     name: "Charm at the Steps of the Sacre Coeur/Montmartre",

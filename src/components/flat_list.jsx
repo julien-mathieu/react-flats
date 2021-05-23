@@ -4,7 +4,7 @@ import Flat from './flat.jsx';
 const FlatList = (props) => {
   return (
     <div className="flat-list">
-      {props.flats.map(flat => <Gif id={flat.id} key={flat.id} />)}
+      {props.flats.map(flat => <Flat flat={flat} />)}
     </div>
     )
 }
