@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 
 class Flat extends Component {
   handleClick = (event) => {
-    if (this.props.selectFlat) {
-      this.props.selectFlat(this.props.id);
-    }
+    this.props.selectFlat(this.props.index);
   }
 
   render() {
